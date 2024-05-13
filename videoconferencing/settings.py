@@ -73,16 +73,15 @@ WSGI_APPLICATION = 'videoconferencing.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'videoconference',
-        'USER': 'postgres',
-        'PASSWORD': 'Ajax66',
-        'HOST': 'localhost',  # Or your PostgreSQL host
-        'PORT': '5432',       # Or your PostgreSQL port
-}
+        'NAME': 'videoconference',   # Name of your PostgreSQL database
+        'USER': 'postgres',         # Database username
+        'PASSWORD': 'Ajax66',       # Database password
+        'HOST': 'localhost',  # Replace with your PostgreSQL host
+        'PORT': '5432',  # Replace with your PostgreSQL port
+    }
 }
 
 # Password validation
